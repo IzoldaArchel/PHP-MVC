@@ -1,0 +1,173 @@
+/* CSS reset 
+   --------- */
+
+html, body, ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+/* CSS règles générales 
+   -------------------- */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #edf4fd;
+    background-image: url(../images/books.jpg);
+    font-family: 'Trebuchet MS', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #f09c76;
+    border: 2px #EBCD6A;
+    font-size: ;
+}
+
+/* CSS règles du gabarit de la page#456aa3 #3d5d8d
+background: #3e4d64;
+background-color: #EBCD6A;
+   -------------------------------- */
+
+#global {
+    min-height: 90%;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    margin-top: 5rem;
+    padding: 5px 20px;
+    background: hsl(216, 23%, 32%, 0.8);
+    
+}
+
+header ul {
+    padding: 0 0 30px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+
+header ul li a {
+    line-height: 30px;
+    padding: 5px 30px;
+    background: #e8d2c4; 
+    color: black;
+}
+header ul li:not(.active) a:hover {
+    color: black;
+    background-color: #e58459;
+}
+
+.active {
+    background-color: #f09c76;
+    cursor: default;
+}
+
+
+/* CSS partie spécifique de la page 
+   -------------------------------- 
+*/
+
+#contenu {
+    margin-bottom : 30px;
+}
+
+.erreur {
+    color: brown;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+tr:first-of-type {
+    border-bottom: 1px solid #7a94b5;
+    color: black;
+    line-height: 50px;
+}
+
+tr {
+    line-height: 30px;
+   
+}
+.connexion {
+    float: right;
+}
+a .connexion {
+    color: white;
+}
+
+a .connexion:hover {
+    color: #EBCD6A;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: #edf4fd;
+}
+
+a:hover {
+   color: #dbd4b8;
+}
+
+#formAdmin {
+    width: 50rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+select {
+    width: 9rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    background-color:#edf4fd;
+    padding-left: 0.5rem;
+}
+
+.trier {
+    background: #f09c76;
+    width: 9rem;
+    height: 2rem;
+    border: none;
+}
+
+.trier:hover {
+    background: #dbd4b8;
+}
+
+.action {
+    font-size: 1.1rem;
+    
+}
+
+.modifier {
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+
+.envoyer {
+    margin-top: 1rem;
+    background: #f09c76;
+    width: 9rem;
+    height: 2rem;
+    border: none;
+}
+
+.recherche {
+    margin-right: 1rem;
+}
+
+.retour {
+    font-size: 1.1rem;
+}
